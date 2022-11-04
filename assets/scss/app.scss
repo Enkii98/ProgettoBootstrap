@@ -12,6 +12,8 @@ a:hover{
   color: red;
 }
 
+
+
 .bg-personale {
   // background: linear-gradient(180deg, #9900ff, indigo);
   @include colpers($colore1:#9900ff,$colore2:indigo,$gradi:180deg);
