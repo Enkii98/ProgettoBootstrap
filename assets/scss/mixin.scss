@@ -1,0 +1,10 @@
+@mixin colpers ($colore1,$colore2, $gradi:none) {
+  @if ($gradi == none) {
+    background:$colore1;
+  }
+
+  @else {
+    background: linear-gradient($gradi,$colore1,$colore2);
+  }
+
+}
